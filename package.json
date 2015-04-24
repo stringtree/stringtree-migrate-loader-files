@@ -1,8 +1,11 @@
 {
-  "name": "stringtree-migrate-driver-testsuite",
-  "version": "1.0.0",
-  "description": "conformance test suite for stringtree-migrate drivers",
+  "name": "stringtree-migrate-loader-files",
+  "version": "0.1.0",
+  "description": "file system script loader for stringtree-migrate",
   "main": "index.js",
+  "scripts": {
+    "test": "node test/test_all.js"
+  },
   "dependencies": {
     "async": "0.9.0"
   },
@@ -12,7 +15,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type" : "git",
-    "url" : "http://github.com/stringtree/stringtree-migrate-driver-testsuite.git"
+    "url" : "http://github.com/stringtree/stringtree-migrate-loader-files.git"
   },
   "author" : { 
     "name" : "Frank Carver",
