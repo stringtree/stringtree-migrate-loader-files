@@ -26,7 +26,7 @@ exports.load = function load(root_path, next) {
         fs.readdir(level_path, function(err, steps) {
           if (err) return done(err);
 
-          async.forEach(steps, function(step, done) {
+          async.forEach(steps.sort(), function(step, done) {
             var step_file = path.join(level_path, step);
             fs.readFile(step_file, "utf8", function (err,data) {
               if (err) return done(err);
