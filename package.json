@@ -1,0 +1,22 @@
+{
+  "name": "stringtree-migrate-driver-testsuite",
+  "version": "1.0.0",
+  "description": "conformance test suite for stringtree-migrate drivers",
+  "main": "index.js",
+  "dependencies": {
+    "async": "0.9.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/stringtree/stringtree-migrate-driver-testsuite.git"
+  },
+  "author" : { 
+    "name" : "Frank Carver",
+    "email" : "frank@efsol.com",
+    "url" : "http://frankcarver.me/"
+  }
+}
